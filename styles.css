@@ -1,0 +1,1463 @@
+/* General Styling */
+/* General Styling */
+/* Prevent overflow issue */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure all sections fit inside the screen */
+.main, section {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Ensure no content is larger than the screen */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Fix for buttons or elements going out */
+.get-started, .button, .list-elem {
+  max-width: 100%;
+}
+
+/* Responsive Fix */
+@media (max-width: 1024px) {
+  .text-container, .content, .container-title {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}.section-1 {
+  background-image: url('/website/images/mobile.png'); /* 🔹 Apni image ka URL yahan dalen */
+  background-size: cover;  /* Image pura area cover karegi */
+  background-position: center; /* Image center me set hogi */
+  background-repeat: no-repeat; /* Image repeat nahi hogi */
+  height: 120vh; /* Section full viewport height lega */
+  padding: 20px 0px;
+}
+
+.section-1 .section1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black; /* Text white dikhane ke liye */
+}
+
+.section-1 .section1 p {
+  text-align: left;
+}
+
+.section-1 .container {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.section-1 .sec-1 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Button */
+.section-1 .get-started {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+}
+
+.section-1 .get-started:hover {
+  background-color: #0056b3;
+}
+
+/* Logo */
+.section-1 .logo img {
+  width: 300px; /* Default logo size */
+  height: auto;
+}
+
+/* Headings */
+.section-1 h1 {
+  font-size: 38px;
+  font-weight: 800 !important;
+}
+
+.section-1 p {
+  font-size: 32px;
+  margin: 10px 0 24px;
+  font-weight: 600 !important;
+}
+
+/* ✅ Mobile View - Center the Logo */
+@media (max-width: 767px) {
+  .section-1 .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+.section-1 .section1 p {
+  text-align: center;
+}
+
+  .section-1 .logo img {
+      width: 100px; /* Mobile ke liye aur chhota */
+  }
+}
+
+/* ✅ Tablet & Mobile View - Button Bottom Center */
+@media (max-width: 1024px) {
+  .section-1 .get-started {
+      position: absolute; /* Button ko fix karna bottom par */
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+.section-1 .logo img {
+  width: 300px !important; /* Default logo size */
+  height: auto;
+}
+  
+  
+.section-1 .section1 p {
+  text-align: center;
+}
+.section-1 .logo img{
+max-width: 230px;
+margin-bottom: 30px;
+align-self: center;
+}
+}
+
+/* ✅ Tablet View (768px - 1024px) */
+@media (max-width: 1024px) {
+  .section-1 .text-container {
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+  }
+  
+  
+.section-1 .section1 p {
+  text-align: center;
+}
+
+  .section-1 h1 {
+      font-size: 28px;
+  }
+
+  .section-1 p {
+      font-size: 17px;
+  }
+
+  .section-1 .content {
+      max-width: 100%;
+  }
+
+  .section-1 .get-started {
+      margin-bottom: 10px;
+  }
+
+  .section-1 {
+      background-image: url('/website/images/Mobile\ 2.png'); /* 🔹 Apni image ka URL yahan dalen */
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      padding: 10px;
+  }
+
+  .section-1 .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .section-1 .logo img {
+      width: 100px;
+  }
+}
+
+/* ✅ Mobile View - Text Centered */
+@media (max-width: 767px) {
+  .section-1 .text-container {
+      /* text-align: center;
+      margin-bottom: 110px; */
+  }
+
+  .section-1 .section1 p {
+    text-align: center;
+  }
+  .section-1 h1 {
+      font-size: 24px;
+  }
+
+  .section-1 p {
+      font-size: 16px;
+  }
+
+  .section-1 .content {
+      max-width: 100%;
+  }
+
+  .section-1 .get-started {
+      margin-bottom: 10px;
+  }
+}
+
+
+
+/* sec2 */
+/* Default styles already exist in your CSS */.section2 .container-title {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2 .container-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.section2 .container-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.section2 .container-title p {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.section2 .bottom-buttonContainer {
+  display: flex;
+}
+
+.section2 .bottom-buttonContainer .button {
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  width: 210px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 11px 12px 12px;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Tablets (768px and up) */
+@media screen and (max-width: 1024px) {
+  .section2 .container-title {
+    padding: 20px;
+    text-align: center;
+  }
+  .section2 .container-title h2 {
+    font-size: 24px;
+  }
+  .section2 .container-title h3 {
+    font-size: 20px;
+  }
+  .section2 .container-title p {
+    display: none;
+  }
+}
+
+/* Mobile Devices (up to 768px) */
+@media screen and (max-width: 768px) {
+  .section2 .container2 {
+  }
+  .section2 .container-title h2 {
+    font-size: 20px;
+  }
+  .section2 .container-title h3 {
+    font-size: 18px;
+  }
+  .section2 .container-title p {
+    font-size: 14px;
+    display: none;
+  }
+}
+
+/* Small Mobile Screens (up to 480px) */
+@media screen and (max-width: 480px) {
+  .section2 .container2 {
+  }
+  .section2 .container-title h2 {
+    font-size: 18px;
+  }
+  .section2 .container-title h3 {
+    font-size: 16px;
+  }
+  .section2 .container-title p {
+    font-size: 12px;
+  }
+}
+
+/* ✅ container-info */
+.section2 .container-info-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  gap: 20px;
+}
+
+.section2 .container-info-articles-2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section2 .image-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.section2 .image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section2 .info-btn {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 .font-class {
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+/* ✅ Responsive Design */
+
+/* Tablets (Up to 1024px) */
+@media screen and (max-width: 1024px) {
+  .section2 .container-info-2 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .section2 .container-info-articles-2 {
+    width: 80%;
+  }
+
+  .section2 .image-container {
+    width: 60%;
+    margin: 20px 0;
+  }
+}
+
+/* Mobile Devices (Up to 768px) */
+@media screen and (max-width: 1000px) {
+  .section2 .container-info-articles-2 {
+    width: 100%;
+  }
+
+  .section2 .image-container {
+    width: 80%;
+  }
+  .carousel-container img{
+    width: 50vw;
+  }
+  
+  .section2 .container-info-2 {
+    display: none;
+  }
+  
+  .section2 .info-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* Small Mobile Screens (Up to 480px) */
+@media screen and (max-width: 480px) {
+  .section2 .image-container {
+    width: 100%;
+  }
+
+  .section2 .info-btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+/* ✅ carousel-container */
+.section2 .carousel-container {
+  display: none;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.section2 .carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 .article {
+  display: none;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.section2 .article.active {
+  display: block;
+}
+
+.section2 .buttons {
+  padding: 27px 0 38px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.section2 button {
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.section2 button:hover {
+  background: #555;
+}
+
+/* ✅ Responsive carousel for mobile */
+@media screen and (max-width: 995px) {
+  .section2 .carousel-container {
+    display: block !important;
+  }
+}
+
+
+
+
+/* section3 */
+/* Section Styling */.section3 {
+  margin: 64px auto;
+  background-image: url("/website/images/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 2560px 685px;
+  min-height: 658px;
+}
+
+/* Title Styling */
+.section3 .container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.section3 .container-title h3 {
+  font-size: 48px;
+  padding-top: 10px;
+}
+
+.section3 .container-title h4 {
+  font-size: 32px !important;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.section3 .container-title p {
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  max-width: 650px;
+  margin: auto auto 29px;
+}
+
+/* ✅ Desktop: List Properly Centered */
+.section3 .list {
+  display: flex;
+  flex-wrap: wrap; /* Overflow avoid karne ke liye */
+  justify-content: center;
+  gap: 15px; /* Items ke beech gap */
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.section3 .list-elem {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  white-space: nowrap;
+  border: 1px solid white;
+  border-radius: 150px;
+}
+
+.section3 #tablet {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.section3 .tablet {
+  width: 60vw;
+}
+
+.section3 .bt3 {
+  display: flex;
+}
+
+.section3 .button-3 {
+  max-width: 210px;
+  width: 100%;
+  color: #e51c1c;
+  background-color: #fff;
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 11px 12px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 58px auto 42px;
+  text-emphasis: none !important;
+}
+
+/* ✅ Tablet & Mobile: Vertical List */
+@media screen and (max-width: 1024px) {
+  .section3 .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .section3 .list-elem {
+    width: 80%;
+    font-size: 14px;
+    border: none;
+    background: none;
+    justify-content: flex-start;
+    padding: 10px 0;
+    position: relative;
+    color: #fff;
+  }
+
+  .section3 .list-elem:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    inset-inline-start: -15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5.5px 0 5.5px 10px;
+    border-color: transparent transparent transparent #fff;
+  }
+
+  .section3 .container-title h3 {
+    font-size: 24px !important;
+  }
+
+  .section3 .container-title h4 {
+    font-size: 16px !important;
+  }
+
+  .section3 .container-title p {
+    display: none;
+  }
+}
+
+/* ✅ Small Mobile Screens (≤ 480px) */
+@media screen and (max-width: 480px) {
+  .section3 .list-elem {
+    font-size: 12px;
+    padding: 8px 0;
+  }
+
+  .section3 .tablet {
+    width: 80vw;
+  }
+
+  .section3 .list {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .section3 .list {
+    flex-direction: column;
+    align-items: center; /* ✅ List items ko center karega */
+    justify-content: center; /* ✅ Center alignment ensure karega */
+    text-align: center; /* ✅ Text bhi center ho jayega */
+    width: 100%;
+  }
+
+  .section3 .list-elem {
+    display: flex;
+    justify-content: center; /* ✅ Center content */
+    text-align: center;
+    width: auto; /* ✅ Width ko automatic rakhega */
+  }
+}
+
+
+
+/* ========================= */
+/*       SECTION 4 CSS       */
+.section4 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0;
+  overflow: hidden;
+}
+
+.section4 .container {
+  display: flex;
+  ;
+      max-width: 1360px !important;
+}
+
+.section4 .container-info {
+  width: 50%;
+  padding: 40px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.section4 .container-info h3 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.section4 .container-info h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #555;
+}
+
+.section4 .container-info .list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section4 .container-info .list-elem {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  color: #333;
+}
+
+.section4 .container-info .list-elem::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5.5px 0 5.5px 10px;
+  border-color: transparent transparent transparent #ff6600;
+}
+
+.section4 .container img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .section4 .container {
+    max-width: 375px !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4 .container-info {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    text-align: left;
+  }
+
+  .section4 .container img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .section4 {
+    height: auto;
+    padding: 0;
+  }
+
+  .section4 .container-info {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .section4 .container-info h3 {
+    font-size: 1.8rem;
+  }
+
+  .section4 .container-info h4 {
+    font-size: 1.3rem;
+  }
+
+  .section4 .container-info p,
+  .section4 .container-info .list-elem {
+    font-size: 0.9rem;
+  }
+
+  .section4 .container img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+/* Section5 Base Styles */
+.section5 {
+  width: 100%;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Main container */
+.section5 .container-players {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-image: radial-gradient(circle at 26% 50%, #e51b1d, #730e0f 170%);
+  max-width: 1360px;
+  width: 100%;
+  margin: auto;
+  padding: 0 16px;
+  position: relative;
+  min-height: 214px;
+}
+
+/* Image Styling */
+.section5 .container-players img {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Text Container */
+.section5 .heading5 {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.section5 .heading5 h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.section5 .heading5 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* ✅ Tablet & Mobile View (≤ 1024px) */
+@media (max-width: 1024px) {
+  .section5 {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section5 .container-players {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section5 .heading5 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section5 .container-players img {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+/* ✅ Mobile View (≤ 768px) */
+@media (max-width: 768px) {
+  .section5 {
+    background-color: #1a1a1a; /* Background color change */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section5 .container-players {
+    background: none; /* Remove radial gradient */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section5 .heading5 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .section5 .container-players img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+/* Container Styling */.section6 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.section6 h3, .section6 h4, .section6 p {
+    margin-bottom: 15px;
+}
+
+
+.section6 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;  /* List items ke beech gap */
+}
+
+.section6 li {
+    flex: 1;  
+    min-width: 300px;  /* Ensure responsive layout */
+    max-width: 30%; /* Desktop par teenon ek line mein */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section6 li img {
+    width: 100px; /* Image size */
+    margin-bottom: 10px;
+}
+
+.section6 .article-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* ✅ **Responsive Design** */
+@media (max-width: 1000px) {
+    .section6 li {
+        max-width: 45%;  /* Tablet view: 2 items per row */
+    }
+    
+.section6 .container p{
+  display: block;
+}
+#paragraph{
+  display: none;
+}
+}
+
+@media (max-width: 768px) {
+    .section6 ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6 li {
+        max-width: 100%;  /* Mobile: ek ke niche ek */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============ Section 7 Styles ============ */
+.section7 {
+  background-color: #f0f0f0;  /* Grey Background */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Container for Section 7 */
+.section7 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Left Side Content (Heading, Paragraph, Button) */
+.section7 .container-info {
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Heading Style */
+.section7 .container-info-content h3 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Style */
+.section7 .container-info-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Button Style */
+.section7 .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.section7 .button:hover {
+  background-color: #e55b00;
+}
+
+/* Right Side - Image Style */
+.section7 img {
+  width: 45%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* ============ Responsive Design for Section 7 ============ */
+@media (max-width: 1000px) {
+  .section7 .container {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .section7 .container-info {
+      width: 100%;
+      text-align: center;  /* Mobile mein bhi left aligned */
+  }
+  
+  .section7 img {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 20px;
+  }
+  
+.section7 .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.section7 .button:hover {
+  background-color: #e55b00;
+}
+}
+
+
+
+/* section8 */
+.section8-r {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('/website/images/Rectangle\ 1.png'); /* 👈 Background Image */
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section8-r h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.section8-r a {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.section8-r a:hover {
+  background-color: #e64a19;
+}
+
+@media (max-width: 768px) {
+  .section8-r{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .section8-r h3 {
+      margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.section8 {
+  padding: 40px;
+  background-color: white;
+  position: relative;
+  height: 100vh;
+}
+
+.section8 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section8 .scroll-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.section8 .scroll-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.section8 .scroll-btn:hover {
+  background-color: #0056b3;
+}
+
+.section8 #scrollLeft {
+  left: 10px;
+}
+
+.section8 #scrollRight {
+  right: 10px;
+}
+
+.section8 .scroll-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.section8 .scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.section8 .award-list {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.section8 .list-elem {
+  /* background: #fff; */
+  border-radius: 8px;
+  width: 210px;
+  margin-inline-end: 20px;
+  padding: 10px;
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s ease-in-out;
+  min-width: 180px;
+}
+
+.section8 .list-elem:hover {
+  transform: scale(1.05);
+}
+
+.section8 .list-elem figure {
+  margin: 0;
+}
+
+.section8 .list-elem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.section8 figcaption {
+  margin-top: 10px;
+}
+
+.section8 .list-elem-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section8 .list-elem-desc {
+  font-size: 14px;
+  color: gray;
+}
+
+.section8 .container-banner {
+  margin-top: 30px;
+}
+
+.section8 .container-banner a {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.section8 .container-banner a:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ✅ FAQ Container */
+.section9{
+  background-image: none !important;
+}
+.section9-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ✅ FAQ Heading */
+.section9-container h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* ✅ Accordion */
+.section9-accordion {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.section9-accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* ✅ Chevron Icon */
+.section9-chevron {
+  width: 12px;
+  height: 12px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* ✅ Active Chevron Rotation */
+.section9-accordion.active .section9-chevron {
+  transform: rotate(135deg);
+}
+
+/* ✅ Accordion Content */
+.section9-accordion-content {
+  padding: 0px 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+  background: #fafafa;
+}
+
+.section9-accordion-content p,
+.section9-accordion-content ul {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.section9-accordion-content ul {
+  padding-left: 20px;
+}
+
+.section9-accordion-content ul li {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section10 کے لیے بنیادی اسٹائل */
+.section10{
+  background-image: none !important;
+}
+.section10.bottom-footer {
+  background-color: white; /* پس منظر سفید تاکہ بلیک ٹیکسٹ نظر آئے */
+  color: black; /* سارا ٹیکسٹ سیاہ */
+  padding: 40px 20px; /* اندرونی اسپیسنگ */
+  text-align: left; /* سارا ٹیکسٹ بائیں طرف */
+}
+
+/* اندرونی کنٹینر */
+.bottom-container {
+  max-width: 10260px;
+  margin: 0 auto;
+}
+
+/* عنوان کا اسٹائل */
+.section10 .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: left; /* بائیں طرف لانا */
+}
+
+/* پیراگراف کا اسٹائل */
+.section10 .desc {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left; /* بائیں طرف لانا */
+  color: black; /* سیاہ رنگ */
+}
+
+/* اسپیشل پیراگراف کا اسٹائل */
+.section10 .desc.special {
+  font-weight: bold;
+  color: black; /* اسپیشل پیراگراف بھی سیاہ */
+}
+
+/* موبائل ویو کے لیے اسٹائل */
+@media (max-width: 768px) {
+  .section10 .title {
+      font-size: 20px;
+  }
+  .section10 .desc {
+      font-size: 14px;
+  }
+}
